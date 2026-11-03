@@ -2,7 +2,7 @@
 
 A **Flutter web deployment** from an AI-assisted task-management application project.
 
-[Hosted web build](https://whyohkay.github.io/stm-web/) · [Project context](docs/PROJECT_CONTEXT.md) · [Nuttha's portfolio](https://github.com/Nuttha-lim/digital)
+[Hosted web build](https://whyohkay.github.io/stm-web/) · [Project context](docs/PROJECT_CONTEXT.md) · [Nuttha's portfolio](https://github.com/Nuttha-lim/portfolio)
 
 ## My role
 
@@ -44,4 +44,4 @@ This serves existing static files. It does not rebuild the application or start 
 - `serviceworker.js` provides readable notification-handler code.
 - It does not establish a reproducible full-stack source release, complete automated test coverage or production readiness.
 
-For a source-code review of another project, see [CO Valley](https://github.com/Nuttha-lim/231-project), including Java sources, contribution details and a manual gameplay test plan.
+For a source-code review of another project, see [CO Valley](https://github.com/Nuttha-lim/co-valley), including Java sources, contribution details and a manual gameplay test plan.
