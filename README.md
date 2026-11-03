@@ -2,7 +2,7 @@
 
 Smart Task Manager is a task management application built with Flutter/Dart, FastAPI and PostgreSQL. This repository hosts its compiled Flutter web build on GitHub Pages.
 
-[Web application](https://whyohkay.github.io/stm-web/) · [Project details](docs/PROJECT_CONTEXT.md) · [Portfolio](https://github.com/Nuttha-lim/portfolio)
+[Web application](https://whyohkay.github.io/stm-web/) · [Source code](https://github.com/Nuttha-lim/smart-task-manager) · [Project details](docs/PROJECT_CONTEXT.md) · [Portfolio](https://github.com/Nuttha-lim/portfolio)
 
 ## My contribution
 
@@ -20,7 +20,7 @@ I used AI assistance to build the application and learn how its frontend, API an
 | `serviceworker.js` | Push notifications and notification-click handling |
 | `assets/NOTICES` | Dependency notices |
 
-The Dart source, backend and database configuration are not included in this deployment repository.
+The [source repository](https://github.com/Nuttha-lim/smart-task-manager) contains the editable Flutter application, FastAPI backend, database migrations and tests.
 
 ## Local preview
 

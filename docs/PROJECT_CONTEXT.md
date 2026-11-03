@@ -8,7 +8,7 @@ I used AI assistance to build the application. The project helped me understand 
 
 ## Web deployment
 
-`index.html` loads the application under `/stm-web/`. Flutter startup files load the compiled Dart bundle and rendering assets. The editable Dart application, API source and database configuration are not included here.
+`index.html` loads the application under `/stm-web/`. Flutter startup files load the compiled Dart bundle and rendering assets. The [source repository](https://github.com/Nuttha-lim/smart-task-manager) contains the editable Flutter application, API source, migrations and tests.
 
 ## Push notifications
 
