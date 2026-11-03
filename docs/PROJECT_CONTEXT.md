@@ -1,25 +1,15 @@
-# Project context
+# Smart Task Manager project details
 
-## Purpose and contribution
+Smart Task Manager uses Flutter/Dart for the interface, FastAPI for the backend and PostgreSQL for storage. The project also used Docker. This repository contains the compiled Flutter web build deployed to GitHub Pages.
 
-Smart Task Manager was an AI-assisted application project. Nuttha directed the application build and gained exposure to the frontend, backend and database components. The project stack described in the resume is Flutter/Dart, FastAPI, PostgreSQL and Docker.
+## My contribution
 
-This contribution is described as AI-assisted. This repository's compiled output does not identify which source code was written manually or generated with assistance.
+I used AI assistance to build the application. The project helped me understand how the Flutter interface connects to the API and how the backend uses the database.
 
-## System context
+## Web deployment
 
-The intended application stack separates a Flutter interface, a FastAPI backend and PostgreSQL persistence. Only the compiled Flutter web deployment is present here. Backend endpoints, database design, migrations and deployment configuration cannot be reviewed or reproduced from these files alone.
+`index.html` loads the application under `/stm-web/`. Flutter startup files load the compiled Dart bundle and rendering assets. The editable Dart application, API source and database configuration are not included here.
 
-## Notification handler
+## Push notifications
 
-The readable `serviceworker.js` handles incoming push payloads, supplies default notification text and opens or focuses an application window when a notification is clicked. The presence of this handler does not prove that push subscription, backend delivery or end-to-end notification behavior is currently configured and working.
-
-## Next evidence to add
-
-- Editable Flutter source and dependency manifests.
-- Backend source, API setup instructions and an example environment file containing no credentials.
-- Database schema or migrations with sample data.
-- Screenshots captured with demonstration data.
-- Dated manual test results and focused API/database checks.
-
-These are future portfolio improvements, not completed deliverables or verified application features.
+`serviceworker.js` displays incoming push notifications and opens or focuses the application when a notification is clicked. Notifications require backend delivery and a configured browser subscription.
